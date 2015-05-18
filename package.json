@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/bdadam/WebPerformanceOptimization.git"
@@ -13,5 +12,8 @@
   "license": "MIT",
   "devDependencies": {
     "grunt": "^0.4.5"
+  },
+  "dependencies": {
+    "express": "^4.12.4"
   }
 }
