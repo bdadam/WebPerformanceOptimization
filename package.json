@@ -1,0 +1,17 @@
+{
+  "name": "WebPerformanceOptimization",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bdadam/WebPerformanceOptimization.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}
