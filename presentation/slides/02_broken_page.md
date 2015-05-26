@@ -1,0 +1,4 @@
+- website zeigen
+- Was sieht der User mit 3G Verbindung?
+- Wie kann man Performance und perceived performance messen (WPT, Google pagespeed insights)
+- Probleme identifizieren: start render, # of requests,...

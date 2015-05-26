@@ -1,0 +1,1 @@
+# Vergleich der broken page mit der optimierten page nach durchführung der erwähnten Maßnahmen

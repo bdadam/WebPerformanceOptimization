@@ -6,6 +6,10 @@
 
 ---
 
+# Bundeling (reduce amount of requests)
+
+---
+
 # Minification
 
 ---
