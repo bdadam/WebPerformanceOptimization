@@ -18,4 +18,7 @@
     - JS Errors
     - Tracking
 
-test
+CDN vs. no CDN
+
+Resources:
+- http://www.smashingmagazine.com/2014/09/08/improving-smashing-magazine-performance-case-study/

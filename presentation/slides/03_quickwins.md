@@ -15,3 +15,7 @@
 ---
 
 # No Redirects
+
+---
+
+# Preloading, DNS-Prefetch, etc.
