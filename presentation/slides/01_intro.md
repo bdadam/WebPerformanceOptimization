@@ -2,18 +2,27 @@
 
 <!-- .slide: data-background="assets/speed.jpg" -->
 
-Note:
-- asdf
-- qwwewe
-- sdfsdfs
-
 ----
 
-<!-- .slide data-background-video="https://www.youtube.com/watch?v=rMo3pwyDNns" -->
+# Warum ist performance wichtig?
 
+Mobile Nutzer erwarten, dass mobile webseiten genau so schnell laden wie auf dem desktop
 
-# Warum ist Performance wichtig?
-- User verlessen die Seite nach 4 Sekunden Ladezeit (Nielsen)
-- Mobilezeitalter, schlechte Verbindungen
-- SEO
-- Was ist instant bzw. langsam?
+Note:
+- schlechte Verbinungen, Latenzzeiten im mobile web
+
+---
+
+User verlessen die Seite nach 4 Sekunden Ladezeit (Nielsen)
+
+---
+
+SEO: Google bestraft langsame Seiten
+
+---
+
+Was ist instant bzw. langsam?
+
+---
+
+Speed is a feature
