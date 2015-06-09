@@ -1,12 +1,12 @@
 ﻿<!-- .slide: data-background="assets/13.jpg" -->
-<div class="attribution">[flickr/louish](https://www.flickr.com/photos/louish/5521251110/)</div>
+<div class="attribution">Bild: [flickr/louish](https://www.flickr.com/photos/louish/5521251110/)</div>
 
 # Bilder optimieren
 
 ---
 
 <!-- .slide: data-background="assets/10.jpg" -->
-<div class="attribution">[flickr/marcovdz](https://www.flickr.com/photos/marcovdz/4520986339/)</div>
+<div class="attribution">Bild: [flickr/marcovdz](https://www.flickr.com/photos/marcovdz/4520986339/)</div>
 
 ## Bilder komprimieren
 
@@ -20,7 +20,7 @@
 ---
 
 <!-- .slide: data-background="assets/cache.jpg" -->
-<div class="attribution">[flickr/picksfromoutthere](https://www.flickr.com/photos/picksfromoutthere/16642333284/)</div>
+<div class="attribution">Bild: [flickr/picksfromoutthere](https://www.flickr.com/photos/picksfromoutthere/16642333284/)</div>
 
 ## Bilder richtig cachen
 
@@ -42,8 +42,30 @@ explain resource: https://developers.google.com/web/fundamentals/performance/opt
 
 ---
 
+### Auflösung 2592 x 3456
+
+<div>
+	<div style="float: left; width: 32%">
+		<p>JPEG</p>
+		<img src="assets/image_formats/kitten.jpg" />
+		<p>1.3 MB</p>
+	</div>
+	<div style="float: left; width: 32%">
+		<p>PNG</p>
+		<img src="assets/image_formats/kitten.png" />
+		<p>12.7 MB</p>
+	</div>
+	<div style="float: left; width: 32%">
+		<p>WEBP</p>
+		<img src="assets/image_formats/kitten.webp" />
+		<p>312 KB</p>
+	</div>
+</div>
+
+---
+
 <!-- .slide: data-background="assets/14.jpg" -->
-<div class="attribution">[flickr/yukop](https://www.flickr.com/photos/yukop/7004565377/)</div>
+<div class="attribution">Bild: [flickr/yukop](https://www.flickr.com/photos/yukop/7004565377/)</div>
 
 ## SVG für Icons
 
@@ -59,7 +81,7 @@ Note: (TODO: include infos in slides + SVG example code)
 ---
 
 <!-- .slide: data-background="assets/responsive.png" -->
-<div class="attribution">[Wikipedia Commons](http://commons.wikimedia.org/wiki/File:Responsive_Web_Design_Logo.svg)</div>
+<div class="attribution">Bild: [Wikipedia Commons](http://commons.wikimedia.org/wiki/File:Responsive_Web_Design_Logo.svg)</div>
 
 ## Responsive Images
 
@@ -87,7 +109,7 @@ http://pic.autoscout24.net/images-big/164/306/0269306164001.jpg
 ---
 
 <!-- .slide: data-background="assets/15.jpg" -->
-<div class="attribution">[flickr/hmk](https://www.flickr.com/photos/hmk/2742398590/)</div>
+<div class="attribution">Bild: [flickr/hmk](https://www.flickr.com/photos/hmk/2742398590/)</div>
 
 ## Lazy Loading von Bildern
 

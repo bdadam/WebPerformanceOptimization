@@ -1,44 +1,58 @@
 ﻿<!-- .slide: data-background="assets/01.jpg" -->
-<div class="attribution">[flickr/seenoevil](https://www.flickr.com/photos/seenoevil/343753843)</div>
+<div class="attribution">Bild: [flickr/seenoevil](https://www.flickr.com/photos/seenoevil/343753843)</div>
 
 # Von 0 auf 100 in einer Sekunde
 
 ----
 
 <!-- .slide: data-background="assets/02.jpg" -->
-<div class="attribution">[flickr/jaguarcarsmena](https://www.flickr.com/photos/jaguarcarsmena/8233313118/)</div>
+<div class="attribution">Bild: [flickr/jaguarcarsmena](https://www.flickr.com/photos/jaguarcarsmena/8233313118/)</div>
 
 # Web Performance Optimierungen bei AutoScout24
+
+---
+
+## Vorgehensweise
+
+- Mobile first Ansatz zur Neuentwicklung des Frontends.
+- Von Anfang an starker Fokus auf Performance.
+
+---
+
+Alte Seite zeigen (video)
+
+---
+
+Neue Seite zeigen (video)
 
 ----
 
 <!-- .slide: data-background="assets/question.jpg" -->
-<div class="attribution">[flickr/oberazzi](https://www.flickr.com/photos/oberazzi/318947873/)</div>
+<div class="attribution">Bild: [flickr/oberazzi](https://www.flickr.com/photos/oberazzi/318947873/)</div>
 
 # Warum ist performance wichtig?
 
 ---
 
 <!-- .slide: data-background="assets/03_4.jpg" -->
-<div class="attribution">[flickr/esthervargasc](https://www.flickr.com/photos/esthervargasc/9657863733/)</div>
+<div class="attribution">Bild: [flickr/esthervargasc](https://www.flickr.com/photos/esthervargasc/9657863733/)</div>
 
 ## Nutzungsverhalten der Menschen ändert sich
 
----
-
-TODO: AS24 mobile vs. desktop zahlen zeigen
+Note:
+- TODO: AS24 mobile vs. desktop zahlen zeigen
 
 ---
 
 <!-- .slide: data-background="assets/03_2.jpg" -->
-<div class="attribution">[flickr/jfingas](https://www.flickr.com/photos/jfingas/10104822523/)</div>
+<div class="attribution">Bild: [flickr/jfingas](https://www.flickr.com/photos/jfingas/10104822523/)</div>
 
 ## Mobile Nutzer erwarten, dass mobile webseiten genau so schnell laden wie auf dem desktop
 
 ---
 
 <!-- .slide: data-background="assets/03_3.jpg" -->
-<div class="attribution">[flickr/brandsvig](https://www.flickr.com/photos/brandsvig/6072553252/)</div>
+<div class="attribution">Bild: [flickr/brandsvig](https://www.flickr.com/photos/brandsvig/6072553252/)</div>
 
 ## Oft "schlechtes Netz" im mobile web
 
@@ -377,7 +391,7 @@ TODO: AS24 mobile vs. desktop zahlen zeigen
 ---
 
 <!-- .slide: data-background="assets/04.jpg" -->
-<div class="attribution">[flickr/128629824@N06](https://www.flickr.com/photos/128629824@N06/15510009976/)</div>
+<div class="attribution">Bild: [flickr/128629824@N06](https://www.flickr.com/photos/128629824@N06/15510009976/)</div>
 
 ---
 
@@ -390,15 +404,22 @@ Note:
 
 ---
 
+## "Responsible Responsive Web Design"
+
+<!-- .slide: data-background="assets/rwd.jpg" -->
+<div class="attribution">Bild: [flickr/adactio](https://www.flickr.com/photos/adactio/5818096043/)</div>
+
+---
+
 <!-- .slide: data-background="assets/05.jpg" -->
-<div class="attribution">[flickr/bianconero91](https://www.flickr.com/photos/bianconero91/3848914582/)</div>
+<div class="attribution">Bild: [flickr/bianconero91](https://www.flickr.com/photos/bianconero91/3848914582/)</div>
 
 ## Neben dem guten Aussehen...
 
 ---
 
 <!-- .slide: data-background="assets/05_1.jpg" -->
-<div class="attribution">[flickr/7552532@N07](https://www.flickr.com/photos/7552532@N07/16961324336/)</div>
+<div class="attribution">Bild: [flickr/7552532@N07](https://www.flickr.com/photos/7552532@N07/16961324336/)</div>
 
 ## ...zählen die inneren Werte!
 
