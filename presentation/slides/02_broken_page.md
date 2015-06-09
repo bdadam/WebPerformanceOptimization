@@ -74,10 +74,8 @@ Was wird optimiert?
 1. Bildoptimierungen
 1. CSS Optimierungen
 1. JavaScript Optimierungen
-1. Inlining
-1. Lazy Loading
 1. 3rd Party: Fonts, Tracking, Werbung
-1. time-to-first-byte reduzieren
+1. Time-To-First-Byte reduzieren
 
 BILD: Karte mit route darstellen und den Etappen
 
