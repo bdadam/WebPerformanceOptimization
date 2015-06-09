@@ -1,6 +1,7 @@
-﻿# Performance Optimierungen
+﻿<!-- .slide: data-background="assets/keyboard.jpg" -->
+<div class="attribution">Bild: [flickr/jeroenbennink](https://www.flickr.com/photos/jeroenbennink/3382865257/)</div>
 
-TODO: Video zeigen von kaputter Seite
+# Performance Optimierungen
 
 Note:
 - Wie wir die Performance bei AS24 verbessert haben
@@ -13,7 +14,7 @@ Note:
 ---
 
 <!-- .slide: data-background="assets/06.jpg" -->
-<div class="attribution">[flickr/wwarby](https://www.flickr.com/photos/wwarby/3296379139/)</div>
+<div class="attribution">Bild: [flickr/wwarby](https://www.flickr.com/photos/wwarby/3296379139/)</div>
 
 ## Startpunkt: Messen
 
@@ -56,15 +57,15 @@ Note:
 ---
 
 <!-- .slide: data-background="assets/chess.jpg" -->
-<div class="attribution">[flickr/jasonbrown2013](https://www.flickr.com/photos/jasonbrown2013/8589591025/)</div>
+<div class="attribution">Bild: [flickr/jasonbrown2013](https://www.flickr.com/photos/jasonbrown2013/8589591025/)</div>
 
 ## Optimierungsstrategie
 
 Was wird optimiert?
 
-1. Anzahl der requests
-1. Blockierende resourcen
+1. Anzahl der Requests
 1. Kilobytes
+1. Zeit für Page Rendering
 
 ---
 
@@ -77,15 +78,14 @@ Was wird optimiert?
 1. 3rd Party: Fonts, Tracking, Werbung
 1. Time-To-First-Byte reduzieren
 
-BILD: Karte mit route darstellen und den Etappen
-
 Note:
+- BILD: Karte mit route darstellen und den Etappen
 - einfache Sachen sind relative gerade linie, aufwändigere Sachen sind mit Kurven gestaltet
 
 ---
 
 <!-- .slide: data-background="assets/07.jpg" -->
-<div class="attribution">[flickr/92334668@N07](https://www.flickr.com/photos/92334668@N07/11123530043)</div>
+<div class="attribution">Bild: [flickr/92334668@N07](https://www.flickr.com/photos/92334668@N07/11123530043)</div>
 
 ## Technologie stack bei AutoScout24
 

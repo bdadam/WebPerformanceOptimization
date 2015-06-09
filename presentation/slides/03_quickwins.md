@@ -1,5 +1,5 @@
 ﻿<!-- .slide: data-background="assets/08.jpg" -->
-<div class="attribution">[flickr/worldseriesboxing](https://www.flickr.com/photos/worldseriesboxing/8434284565/)</div>
+<div class="attribution">Bild: [flickr/worldseriesboxing](https://www.flickr.com/photos/worldseriesboxing/8434284565/)</div>
 
 # Quickwins
 
@@ -9,12 +9,16 @@ Note:
 ---
 
 <!-- .slide: data-background="assets/09.jpg" -->
-<div class="attribution">[flickr/96828128@N02](https://www.flickr.com/photos/96828128@N02/14448381336/)</div>
+<div class="attribution">Bild: [flickr/96828128@N02](https://www.flickr.com/photos/96828128@N02/14448381336/)</div>
 
 ## Dateien minifizieren
 
 Note:
 - kleiner Dateigrösse durch löschen von unnötigen Inhalten (Kommentare, whitespace, ...)
+
+---
+
+TODO: savings before after in KB and %
 
 ---
 
@@ -27,13 +31,17 @@ Tools:
 ---
 
 <!-- .slide: data-background="assets/10.jpg" -->
-<div class="attribution">[flickr/marcovdz](https://www.flickr.com/photos/marcovdz/4520986339/)</div>
+<div class="attribution">Bild: [flickr/marcovdz](https://www.flickr.com/photos/marcovdz/4520986339/)</div>
 
 ## Gzip aktivieren
 
 Note:
 - Vor allem wichtig für text dateien (CSS, JS, HTML)
 - Automatisierte Tests schreiben um Gziping zu testen
+
+---
+
+TODO: savings before after in KB and %
 
 ---
 
@@ -57,12 +65,16 @@ Kann mit automatisierten Tests getestet werden
 ---
 
 <!-- .slide: data-background="assets/11.jpg" -->
-<div class="attribution">[flickr/marcovdz](https://www.flickr.com/photos/ruthanddave/8530905481/)</div>
+<div class="attribution">Bild: [flickr/marcovdz](https://www.flickr.com/photos/ruthanddave/8530905481/)</div>
 
 ## Requests reduzieren durch Bundeling von JS / CSS
 
 Note:
 - Erklaren warum wenige requests wichtig sind
+
+---
+
+TODO: savings before after
 
 ---
 
@@ -73,28 +85,14 @@ Tools:
 ---
 
 <!-- .slide: data-background="assets/12.jpg" -->
-<div class="attribution">[flickr/joffi](https://www.flickr.com/photos/joffi/4966531636/)</div>
+<div class="attribution">Bild: [flickr/joffi](https://www.flickr.com/photos/joffi/4966531636/)</div>
 
 ## Redirects reduzieren
 
 ---
 
-### Serveranfrage ohne redirect
-
-<img src="assets/redirects_1.png" class="float: left;"/>
-<div class="attribution">[www.feedthebot.com](https://www.feedthebot.com/mobile/mobile-redirects.html)</div>
-
----
-
-### Serveranfrage mit redirect
-
-<img src="assets/redirects_2.png" class="float: right;"/>
-<div class="attribution">[www.feedthebot.com](https://www.feedthebot.com/mobile/mobile-redirects.html)</div>
-
----
-
 <!-- .slide: data-background="assets/names.jpg" -->
-<div class="attribution">[flickr/ontourwithben](https://www.flickr.com/photos/ontourwithben/7836307042/)</div>
+<div class="attribution">Bild: [flickr/ontourwithben](https://www.flickr.com/photos/ontourwithben/7836307042/)</div>
 
 ## DNS lookups reduzieren
 
