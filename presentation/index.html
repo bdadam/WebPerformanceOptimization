@@ -36,13 +36,10 @@
 
             <section data-markdown="slides/05_css.md" data-separator="----"  data-separator-vertical="---"></section>
 
-            <section data-markdown="slides/06_js.md" data-separator="----"  data-separator-vertical="---"></section>
-
-            <section data-markdown="slides/07_3rdparty.md" data-separator="----"  data-separator-vertical="---"></section>
-
-            <section data-markdown="slides/08_monitoring.md" data-separator="----"  data-separator-vertical="---"></section>
-
-            <section data-markdown="slides/09_conclusion.md" data-separator="----"  data-separator-vertical="---"></section>
+            <section data-markdown="slides/06_js.md" data-separator="^---$"  data-separator-vertical="^--$"></section>
+            <section data-markdown="slides/07_3rdparty.md" data-separator="^---$"  data-separator-vertical="^--$"></section>
+            <section data-markdown="slides/08_monitoring.md" data-separator="----"  data-separator-vertical="--"></section>
+            <section data-markdown="slides/09_conclusion.md" data-separator="----"  data-separator-vertical="--"></section>
         </div>
     </div>
     <script src="lib/js/head.min.js"></script>
@@ -59,13 +56,13 @@
                 { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
                 { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
                 { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
                 { src: 'plugin/zoom-js/zoom.js', async: true },
                 { src: 'plugin/notes/notes.js', async: true }
             ]
         });
 		
-		Reveal.addEventListener( 'fragmentshown', function( event ) {
+		Reveal.addEventListener('fragmentshown', function(event) {
 			// event.fragment = the fragment DOM element
 			var needle = document.getElementById("path2990");
 			var index = event.fragment.getAttribute("data-fragment-index");
@@ -91,7 +88,7 @@
 					needle.classList.add("five");
 					break;
 			}
-		} );
+		});
     </script>
 </body>
 </html>
