@@ -46,8 +46,8 @@ TODO: screenshot GPSI mit Ergebnissen von kaputter Seite
 ## Das Performance Ziel
 
 <div>
-	<img src="assets/gpsi_goal.jpg" style="float: left;" />
-	<img src="assets/wpt_goal.jpg" style="float: right; width: 50%;" />
+	<img src="assets/gpsi_goal.jpg" style="float: left; width: 48%;" />
+	<img src="assets/wpt_goal.jpg" style="float: right; width: 48%;" />
 	<div style="clear: both;"></div>
 </div>
 
@@ -89,7 +89,7 @@ Note:
 
 ## Technologie stack bei AutoScout24
 
-<div style="width: 138%; background-color: white; padding: 50px; margin-left: -250px;">
+<div style="width: 138%; background-color: white; padding: 20px; margin-left: -250px;">
 	<img src="assets/microsoft-net-logo.jpg" style="float: left; width: 235px; height: 225px" />
 	<img src="assets/grunt.png" style="float: right; width: 235px; height: 225px" />
 	<img src="assets/js.png" style="float: right; width: 235px; height: 225px" />

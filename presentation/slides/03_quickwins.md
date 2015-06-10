@@ -8,40 +8,14 @@ Note:
 
 ---
 
-<!-- .slide: data-background="assets/09.jpg" -->
-<div class="attribution">Bild: [flickr/96828128@N02](https://www.flickr.com/photos/96828128@N02/14448381336/)</div>
-
-## Dateien minifizieren
-
-Note:
-- kleiner Dateigrösse durch löschen von unnötigen Inhalten (Kommentare, whitespace, ...)
-
----
-
-TODO: savings before after in KB and %
-
----
-
-Tools:
-
-- grunt-contrib-cssmin - CSS minifizieren
-- grunt-contrib-uglify - JS minifizieren
-- grunt-contrib-htmlmin - HTML minifizieren
-
----
-
 <!-- .slide: data-background="assets/10.jpg" -->
 <div class="attribution">Bild: [flickr/marcovdz](https://www.flickr.com/photos/marcovdz/4520986339/)</div>
 
-## Gzip aktivieren
+## GZIP aktivieren
 
 Note:
 - Vor allem wichtig für text dateien (CSS, JS, HTML)
 - Automatisierte Tests schreiben um Gziping zu testen
-
----
-
-TODO: savings before after in KB and %
 
 ---
 
@@ -64,6 +38,53 @@ Kann mit automatisierten Tests getestet werden
 
 ---
 
+<!-- .slide: data-background="assets/09.jpg" -->
+<div class="attribution">Bild: [flickr/96828128@N02](https://www.flickr.com/photos/96828128@N02/14448381336/)</div>
+
+## Dateien minifizieren
+
+Note:
+- kleiner Dateigrösse durch löschen von unnötigen Inhalten (Kommentare, whitespace, ...)
+
+---
+
+### Auswirkungen von GZIP und Minifizierung
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">&nbsp;</th>
+      <th style="text-align: center">Vorher</th>
+      <th style="text-align: center">Nachher</th>
+      <th style="text-align: center">Einsparung</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right"><strong>CSS</strong></td>
+      <td style="text-align: center">131 KB</td>
+      <td style="text-align: center">27 KB</td>
+      <td style="text-align: center">79.4%</td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><strong>JS</strong></td>
+      <td style="text-align: center">159 KB</td>
+      <td style="text-align: center">55.6 KB</td>
+      <td style="text-align: center">65%</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+Tools:
+
+- grunt-contrib-cssmin - CSS minifizieren
+- grunt-contrib-uglify - JS minifizieren
+- grunt-contrib-htmlmin - HTML minifizieren
+
+---
+
 <!-- .slide: data-background="assets/11.jpg" -->
 <div class="attribution">Bild: [flickr/marcovdz](https://www.flickr.com/photos/ruthanddave/8530905481/)</div>
 
@@ -74,7 +95,13 @@ Note:
 
 ---
 
-TODO: savings before after
+```
+<head>
+	...
+	<link rel="stylesheet" href="main.css">
+	...
+</head>
+```
 
 ---
 
@@ -91,10 +118,10 @@ Tools:
 
 ---
 
-<!-- .slide: data-background="assets/names.jpg" -->
-<div class="attribution">Bild: [flickr/ontourwithben](https://www.flickr.com/photos/ontourwithben/7836307042/)</div>
+<!-- .slide: data-background="assets/fetch.jpg" -->
+<div class="attribution">Bild: [flickr/mshipp](https://www.flickr.com/photos/mshipp/14256166416)</div>
 
-## DNS lookups reduzieren
+## DNS Prefetching
 
 ---
 

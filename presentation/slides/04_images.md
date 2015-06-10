@@ -22,15 +22,6 @@
 <!-- .slide: data-background="assets/cache.jpg" -->
 <div class="attribution">Bild: [flickr/picksfromoutthere](https://www.flickr.com/photos/picksfromoutthere/16642333284/)</div>
 
-## Bilder richtig cachen
-
----
-
-- caching header richtig setzen
-- Hash code an URL anhängen und hash bei Bildänderung ändern
-
-explain resource: https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching?hl=de
-
 ---
 
 ## Das richtge Format wählen
@@ -64,15 +55,38 @@ explain resource: https://developers.google.com/web/fundamentals/performance/opt
 
 ---
 
+<!-- .slide: data-background="assets/webp.png" -->
+
+---
+
 <!-- .slide: data-background="assets/14.jpg" -->
 <div class="attribution">Bild: [flickr/yukop](https://www.flickr.com/photos/yukop/7004565377/)</div>
 
-## SVG für Icons
+## Inline SVG für Icons
 
-Note: (TODO: include infos in slides + SVG example code)
+---
+
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 fill="white" width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<path style="fill-rule:evenodd;clip-rule:evenodd;" d="M9,11.9l-9-6C0,5.9,0,6,0,6v7.4C0,14.3,0.7,15,1.6,15h14.7
+	c0.9,0,1.6-0.7,1.6-1.6V6c0-0.1,0-0.1,0-0.2L9,11.9z M9,10.3l8.5-5.9C17.2,4.2,16.6,4,16.2,4H1.8c-0.4,0-1,0.2-1.3,0.4L9,10.3z"/>
+</svg>
+
+```
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 fill="white" width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<path style="fill-rule:evenodd;clip-rule:evenodd;" d="M9,11.9l-9-6C0,5.9,0,6,0,6v7.4C0,14.3,0.7,15,1.6,15h14.7
+	c0.9,0,1.6-0.7,1.6-1.6V6c0-0.1,0-0.1,0-0.2L9,11.9z M9,10.3l8.5-5.9C17.2,4.2,16.6,4,16.2,4H1.8c-0.4,0-1,0.2-1.3,0.4L9,10.3z"/>
+</svg>
+```
+
+---
+
+### Vorteile von SVG
+
 - Funktioniert für alle Auflösungen
-- Text -> Gute Komprimierung
-- Flexibel einsetzbar (CSS styling)
+- Sehr gute Komprimierung mit GZIP
+- Flexibel einsetzbar
 
 ---
 
