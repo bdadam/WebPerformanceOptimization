@@ -14,16 +14,22 @@
 
 ## Vorgehensweise
 
-- Mobile first Ansatz zur Neuentwicklung des Frontends.
-- Von Anfang an starker Fokus auf Performance.
+- Mobile first Ansatz zur Neuentwicklung des Frontends
+- Von Anfang an starker Fokus auf Performance
 
 ---
 
-Alte Seite zeigen (video)
-
----
-
-Neue Seite zeigen (video)
+<div>
+	<div style="float: left; width: 48%;">
+		<p>Alt</p>
+		<img src="assets/chameleon.png"  />
+	</div>
+	<div style="float: left; width: 48%;">
+		<p>Neu</p>
+		<img src="assets/showcar.png" />
+	</div>
+	<div style="clear: both;"></div>
+</div>
 
 ----
 
