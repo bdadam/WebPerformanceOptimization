@@ -10,15 +10,22 @@
 
 ---
 
+<img src="assets/unusedcss.png" />
+
+---
+
+### Use a CSS preprocessor like SASS
+
+---
+
+### Use a lightweight grid system like susy
+
+---
+
 Tools:
 
-- Sass
-- susy
-- grunt-contrib-concat
-- grunt-contrib-cssmin
-- pleeease
-- autoprefix
-- uncss
+- pleeease - Autoprefixer, fallbacks, etc.
+- uncss - remove unused CSS
 
 ---
 
@@ -28,7 +35,11 @@ CSS files blockieren die Anzeige bis content heruntergeladen und verarbeitet wur
 
 ---
 
-TODO show difference (WPT video...)
+synchron
+<img src="assets/filmstrip_2.jpg" />
+
+asynchron
+<img src="assets/filmstrip_1.webp" />
 
 ---
 

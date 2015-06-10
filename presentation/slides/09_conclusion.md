@@ -1,4 +1,4 @@
-# Konklusion
+# Zusammenfassung
 
 ---
 
@@ -6,13 +6,6 @@
 
 ---
 
-# Less is more
+# Weniger ist mehr
 
 ---
-
-# Zusammenfassung
-
----
-
-<!-- .slide: data-background="assets/speed.jpg" -->
-(Vorher/nachher Bild)

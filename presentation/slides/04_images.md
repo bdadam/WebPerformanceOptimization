@@ -19,11 +19,6 @@
 
 ---
 
-<!-- .slide: data-background="assets/cache.jpg" -->
-<div class="attribution">Bild: [flickr/picksfromoutthere](https://www.flickr.com/photos/picksfromoutthere/16642333284/)</div>
-
----
-
 ## Das richtge Format wählen
 
 - JPEG: Bilder ohne Transparenz
@@ -90,6 +85,12 @@
 
 ---
 
+### Nachteil
+
+- Fallback für IE8 benötigt
+
+---
+
 <!-- .slide: data-background="assets/grunticon.jpg" -->
 
 ---
@@ -129,9 +130,30 @@ http://pic.autoscout24.net/images-big/164/306/0269306164001.jpg
 
 ---
 
+### Mit data-attributes
+
+```
+<img data-src="imagePath.jpg" />
+```
+
+```
+function loadImages() {
+    var images = Array.prototype.slice.call(
+					document.querySelectorAll('img[data-src]')
+				 );
+
+    images.forEach(function(image) {
+        if (image.src === '') {
+            image.src = image.getAttribute('data-src');
+        }
+    });
+}
+```
+
+---
+
 ### Tools:
 
-- data Attributes
 - Layzr.js
 
 Note:
