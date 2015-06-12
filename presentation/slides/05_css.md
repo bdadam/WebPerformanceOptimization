@@ -14,11 +14,46 @@
 
 ---
 
-### Use a CSS preprocessor like SASS
+### Einen CSS preprocessor wie SASS benutzen
+
+<img src="assets/sass.png" style="height: 250px; background: none; border: none; margin-top: 80px;" />
 
 ---
 
-### Use a lightweight grid system like susy
+### Ein leichtgewichtiges Grid System wie susy benutzen
+
+<img src="assets/susy.png" style="height: 250px; background: none; border: none; margin-top: 80px;" />
+
+---
+
+<!-- .slide: data-background="assets/components.jpg" -->
+<div class="attribution">Bild: [flickr/jys07](https://www.flickr.com/photos/jys07/14915304913/)</div>
+
+### Eine Seite wird in verschiedene CSS Komponenten unterteilt
+
+---
+
+<img src="assets/components_detail.jpg" style="margin-top: -90px;"/>
+
+---
+
+```
+...
+
+  <div class="vehicle-details">...</div>
+  <div class="vehicle-equipments">
+	<hr>
+	<h2>Ausstattung</h2>
+	<ul>...</ul>
+  </div>
+  <div class="vehicle-description">
+    <hr>
+    <h2>Fahrzeugbeschreibung</h2>
+    <div>Fahrzeug für Bastler, Motor Kopfdichtung defekt, Alle Angaben ohne Gewähr,</div>
+  </div>
+  
+...
+```
 
 ---
 

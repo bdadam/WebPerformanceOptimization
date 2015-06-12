@@ -23,15 +23,15 @@ Note:
 
 <div style="font-family: monospace; color: #DCDCDC; background: #3F3F3F; text-align: left; font-size: 30px; padding: 10px;">
 HTTP/1.1 200 OK  
-Date: Thu, 04 Dec 2003 16:15:12 GMT  
-Server: Apache/2.0  
-Vary: Accept-Encoding  
+Content-Type: text/html; charset=utf-8  
 <span style="color: red;">Content-Encoding: gzip</span>  
-Cache-Control: max-age=300  
-Expires: Thu, 04 Dec 2003 16:20:12 GMT  
-X-Guru: basic-knowledge=0, general-knowledge=0.2, complete-omnipotence=0.99  
-Content-Length: 1533  
-Content-Type: text/html; charset=ISO-8859-1
+Vary: Accept-Encoding  
+Server: Microsoft-IIS/7.5  
+X-AspNetMvc-Version: 4.0  
+X-AspNet-Version: 4.0.30319  
+X-Powered-By: ASP.NET  
+Date: Thu, 11 Jun 2015 19:27:44 GMT  
+Content-Length: 35433
 </div>
 
 Kann mit automatisierten Tests getestet werden
@@ -95,6 +95,18 @@ Note:
 
 ---
 
+Nicht:
+```
+<head>
+	...
+	<link rel="stylesheet" href="home.css">
+	<link rel="stylesheet" href="list.css">
+	<link rel="stylesheet" href="detail.css">
+	...
+</head>
+```
+
+Sondern:
 ```
 <head>
 	...

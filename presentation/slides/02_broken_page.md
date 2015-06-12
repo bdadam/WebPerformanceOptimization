@@ -28,7 +28,9 @@ Note:
 - Was ist WPT
 - Was kann man mit WPT machen?
 
-TODO: screenshot WPT mit Ergebnissen von kaputter Seite
+---
+
+<!-- .slide: data-background="assets/webpagetest_result.jpg" -->
 
 ---
 
@@ -39,7 +41,9 @@ TODO: screenshot WPT mit Ergebnissen von kaputter Seite
 Note:
 - Was ist GPSI? --> analysiert den Inhalt einer Webseite und erstellt Vorschläge zur Verbesserung der Geschwindigkeit dieser Seite.
 
-TODO: screenshot GPSI mit Ergebnissen von kaputter Seite
+---
+
+<!-- .slide: data-background="assets/gpsi_result.jpg" -->
 
 ---
 
@@ -53,6 +57,7 @@ TODO: screenshot GPSI mit Ergebnissen von kaputter Seite
 
 Note:
 - Was ist das Ziel? -> GPSI score >= 95, WPT speed index <= 1000
+- Warum haben wir dieses Ziel gewählt?
 
 ---
 
@@ -76,7 +81,6 @@ Was wird optimiert?
 1. CSS Optimierungen
 1. JavaScript Optimierungen
 1. 3rd Party: Fonts, Tracking, Werbung
-1. Time-To-First-Byte reduzieren
 
 Note:
 - BILD: Karte mit route darstellen und den Etappen
@@ -89,11 +93,11 @@ Note:
 
 ## Technologie stack bei AutoScout24
 
-<div style="width: 138%; background-color: white; padding: 20px; margin-left: -250px;">
-	<img src="assets/microsoft-net-logo.jpg" style="float: left; width: 235px; height: 225px" />
-	<img src="assets/grunt.png" style="float: right; width: 235px; height: 225px" />
-	<img src="assets/js.png" style="float: right; width: 235px; height: 225px" />
-	<img src="assets/sass.png" style="float: right; width: 235px; height: 225px;" />
-	<img src="assets/html.png" style="float: right; width: 235px; height: 225px;" />
+<div style="background-color: white; padding: 20px; margin-left: -20px; width: 100%">
+	<img src="assets/microsoft-net-logo.jpg" style="float: left; width: 180px; height: 180px" />
+	<img src="assets/grunt.png" style="float: right; width: 180px; height: 180px" />
+	<img src="assets/js.png" style="float: right; width: 180px; height: 180px" />
+	<img src="assets/sass.png" style="float: right; width: 180px; height: 180px;" />
+	<img src="assets/html.png" style="float: right; width: 180px; height: 180px;" />
 	<div style="clear: both;"></div>
 </div>

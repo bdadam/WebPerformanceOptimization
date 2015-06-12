@@ -44,9 +44,9 @@
 <div class="attribution">Bild: [flickr/esthervargasc](https://www.flickr.com/photos/esthervargasc/9657863733/)</div>
 
 ## Nutzungsverhalten der Menschen ändert sich
+---
 
-Note:
-- TODO: AS24 mobile vs. desktop zahlen zeigen
+TODO: AS24 mobile vs. desktop zahlen zeigen
 
 ---
 
@@ -68,7 +68,8 @@ Note:
 
 ---
 
-## Wahrnehmung von Ladezeiten
+## Wahrnehmung von Ladezeiten*
+<div class="attribution" style="bottom: 0 !important;">*[Jakob Nielsen](http://www.nngroup.com/articles/website-response-times/)</div>
 
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
