@@ -1,4 +1,8 @@
-﻿<!-- .slide: data-background="assets/13.jpg" -->
+﻿<!-- .slide: data-background="assets/maps/map_final_2.jpg" -->
+
+---
+
+<!-- .slide: data-background="assets/13.jpg" -->
 <div class="attribution">Bild: [flickr/louish](https://www.flickr.com/photos/louish/5521251110/)</div>
 
 # Bilder optimieren
@@ -132,15 +136,19 @@
 
 ### Bilder serverseitig resizen
 
+http://pic.autoscout24.net/images-big/164/306/0269306164001.jpg
+
+<img src="assets/pic_server_2.jpg" />
+
+<p>34.6 KB</p>
+
+---
+
 http://pic.autoscout24.net/images-420x315/164/306/0269306164001.jpg
 
 <img src="assets/pic_server_1.jpg" />
 
----
-
-http://pic.autoscout24.net/images-big/164/306/0269306164001.jpg
-
-<img src="assets/pic_server_2.jpg" />
+<p>16.2 KB</p>
 
 Note:
 - Infrastuktur für Bilder benötigt (Nginx, Varnish cache...)
@@ -154,7 +162,9 @@ Note:
 
 ---
 
-Beispiel Imager.js
+### Adaptive Images
+
+Beispiel mit Imager.js
 
 ```
 <div style="width: 240px">

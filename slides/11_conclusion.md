@@ -7,7 +7,7 @@
         Adam Beres-Deak &nbsp;&nbsp;&middot;&nbsp;&nbsp; @bdadamm &nbsp;&nbsp;&middot;&nbsp;&nbsp; bdadam.com
     </div>
     <div style="float: left; width: 50%; text-align: right;">
-        Mathias Eckert  &nbsp;&nbsp;&middot;&nbsp;&nbsp; @meckert &nbsp;&nbsp;&middot;&nbsp;&nbsp; meckert.net
+        Mathias Eckert  &nbsp;&nbsp;&middot;&nbsp;&nbsp; medium.com/@meckert
     </div>
 </div>
 

@@ -88,10 +88,6 @@ Note:
 
 ---
 
-<!-- .slide: data-background="assets/map_final.jpg" -->
-
----
-
 <!-- .slide: data-background="assets/07.jpg" -->
 <div class="attribution">Bild: [flickr/92334668@N07](https://www.flickr.com/photos/92334668@N07/11123530043)</div>
 
@@ -105,3 +101,9 @@ Note:
 	<img src="assets/html.png" style="float: right; width: 180px; height: 180px;" />
 	<div style="clear: both;"></div>
 </div>
+
+---
+
+## Unterstüzte Browser
+
+TODO

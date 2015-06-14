@@ -46,7 +46,9 @@
 ## Nutzungsverhalten der Menschen ändert sich
 ---
 
-TODO: AS24 mobile vs. desktop zahlen zeigen
+### AutoScout24 user traffic 
+
+<img src="assets/stats/visits2.png" />
 
 ---
 

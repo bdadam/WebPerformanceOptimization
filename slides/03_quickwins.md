@@ -1,4 +1,8 @@
-﻿<!-- .slide: data-background="assets/08.jpg" -->
+﻿<!-- .slide: data-background="assets/maps/map_final_1.jpg" -->
+
+---
+
+<!-- .slide: data-background="assets/08.jpg" -->
 <div class="attribution">Bild: [flickr/worldseriesboxing](https://www.flickr.com/photos/worldseriesboxing/8434284565/)</div>
 
 # Quickwins

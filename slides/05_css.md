@@ -1,3 +1,7 @@
+<!-- .slide: data-background="assets/maps/map_final_3.jpg" -->
+
+---
+
 <!-- .slide: data-background="assets/16.jpg" class="empty" -->
 <div class="attribution">Bild: [flickr/quaelin](https://www.flickr.com/photos/quaelin/3571013052)</div>
 
@@ -39,20 +43,41 @@
 
 ```
 ...
-
   <div class="vehicle-details">...</div>
   <div class="vehicle-equipments">
 	<hr>
 	<h2>Ausstattung</h2>
-	<ul>...</ul>
+	<ul>
+	  <li>...</li>
+	</ul>
   </div>
   <div class="vehicle-description">
     <hr>
     <h2>Fahrzeugbeschreibung</h2>
-    <div>Fahrzeug für Bastler, Motor Kopfdichtung defekt, Alle Angaben ohne Gewähr,</div>
+    <div>Fahrzeug für Bastler, Motor Kopfdichtung defekt</div>
   </div>
-  
 ...
+```
+
+---
+
+```
+.vehicle-equipments {
+    @extend %detail-page-block;
+
+    li {
+        margin-top: $XS;
+
+        @media only screen and (min-width: 400px) {
+            &:nth-child(odd) {
+                @include span(first 6);
+            }
+            &:nth-child(even) {
+                @include span(last 6);
+            }
+        }
+    }
+}
 ```
 
 ---
@@ -78,12 +103,45 @@ asynchron
 
 ---
 
-loadCSS
+### IPhone 5 - above the fold
+
+<img src="assets/abovethefold.jpg" />
 
 ---
 
-## Inlining CSS
+## Inline CSS
 
-TODO: explain how inlining works
+Style für "above the fold" Inhalte direkt im ```<head>``` integrieren
+
+```
+<head>
+  <styles>
+    /* inline styles */
+  </styles>
+</head>
+```
 
 ---
+
+<!-- .slide: data-background="assets/inline_styles.jpg" -->
+
+---
+
+CSS Datei ansynchron laden mit loadCSS
+
+```
+<head>
+  <style>
+    /* inline critical CSS */
+  </style>
+  <script>
+   // inline the loadCSS script
+   function loadCSS( href, before, media, callback ){ ... }
+   // then load your stylesheet
+   loadCSS("/path/to/stylesheet.css");
+  <script>
+  <noscript>
+    <link href="/path/to/stylesheet.css" rel="stylesheet">
+  </noscript>
+</head>
+```

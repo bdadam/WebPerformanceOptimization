@@ -1,3 +1,7 @@
+<!-- .slide: data-background="assets/maps/map_final_4.jpg" -->
+
+--
+
 <!-- .slide: data-background="assets/8038102723_1f2a6de4ac_k.jpg" -->
 <div class="attribution">[flickr/kingair42](https://www.flickr.com/photos/kingair42/8038102723/)</div>
 

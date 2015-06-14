@@ -1,3 +1,7 @@
+<!-- .slide: data-background="assets/maps/map_final_5.jpg" -->
+
+--
+
 # 3rd Party Content
 
 --
@@ -13,7 +17,8 @@ Note:
 
 --
 
-Was sind die?
+## Was ist 3rd party?
+
 - Werbung (Google AdSense, Google DoubleClick)
 - Tracking Pixels (Google Analytics, Piwik)
 - Remarketing Pixels (Goodle AdWords Remarketing, Criteo)
