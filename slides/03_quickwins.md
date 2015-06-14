@@ -15,6 +15,7 @@ Note:
 
 Note:
 - Nur für text dateien (CSS, JS, HTML)
+- Nur für grosse Files
 - Automatisierte Tests schreiben um Gziping zu testen
 
 ---
