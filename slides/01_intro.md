@@ -64,12 +64,12 @@ TODO: AS24 mobile vs. desktop zahlen zeigen
 
 ---
 
-<!-- .slide: data-background="assets/loading.gif" -->
+<!-- .slide: data-background="assets/loading.gif" class="empty" -->
 
 ---
 
 ## Wahrnehmung von Ladezeiten*
-<div class="attribution" style="bottom: 0 !important;">*[Jakob Nielsen](http://www.nngroup.com/articles/website-response-times/)</div>
+<div class="attribution">*[Jakob Nielsen](http://www.nngroup.com/articles/website-response-times/)</div>
 
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -397,14 +397,14 @@ TODO: AS24 mobile vs. desktop zahlen zeigen
 
 ---
 
-<!-- .slide: data-background="assets/04.jpg" -->
+<!-- .slide: data-background="assets/04.jpg" class="empty" -->
 <div class="attribution">Bild: [flickr/128629824@N06](https://www.flickr.com/photos/128629824@N06/15510009976/)</div>
 
 ---
 
-<!-- .slide: data-background="assets/google-mobile-slow-label.png" -->
+### Google bestraft langsame Seiten, schnelle Seiten ranken besser
 
-## Google bestraft langsame Seiten, schnelle Seiten ranken besser
+<img src="assets/google-mobile-slow-label.png">
 
 Note:
 - Sehr starkes Argument für perfromance verbesserungen gegenüber Management

@@ -1,4 +1,4 @@
-<!-- .slide: data-background="assets/16.jpg" -->
+<!-- .slide: data-background="assets/16.jpg" class="empty" -->
 <div class="attribution">Bild: [flickr/quaelin](https://www.flickr.com/photos/quaelin/3571013052)</div>
 
 ---
@@ -33,7 +33,7 @@
 
 ---
 
-<img src="assets/components_detail.jpg" style="margin-top: -90px;"/>
+<img src="assets/components_detail.jpg">
 
 ---
 

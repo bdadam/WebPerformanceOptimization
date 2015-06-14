@@ -1,11 +1,84 @@
-h1, h2 {
-	background-color: rgba(100, 100, 100, 0.6);
+h1, h2, h3, h4, h5, h6, p, div {
+    text-shadow: 1px 1px 2px rgba(127, 127, 127, 1) !important;
+}
+
+/*
+h1, h2, h3, h4, h5, h6 {
+
+}
+
+section {
+    background-color: rgba(127, 127, 127, .15);
+    padding: 2rem;
+}
+*/
+
+section.empty {
+   padding: 0 !important;
+}
+
+section {
+    background-color: rgba(0, 0, 0, .05) !important;
+    border-radius: 3px;
+}
+
+.dark-shadow {
+    text-shadow: 0 0 12px #000 !important;
+}
+
+.darkerbg {
+    background-color: rgba(0, 0, 0, .4) !important;
 }
 
 .attribution {
     position: absolute !important;
-    bottom: -20px !important;
+    bottom: -1.48em !important;
     right: 0 !important;
-    font-size: 0.8em !important;
-    opacity: 0.75 !important;
+    font-size: 0.6em !important;
+    opacity: 0.6 !important;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 2px 8px !important;
+    border-radius: 3px;
+}
+
+.attribution a {
+    color: #fff !important;
+    text-shadow: 0 0 12px rgba(0, 0, 0, 0.5) !important;
+}
+
+.bgvid.bgvid.bgvid.bgvid.bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
+
+blockquote {
+    font-style: normal !important;
+    text-align: left;
+    padding: 2rem !important;
+}
+
+blockquote strong {
+    text-decoration: underline;
+}
+
+blockquote footer {
+    display: block;
+    font-size: 70% !important;
+    line-height: 1.42857;
+    //color: #ccc;
+    text-align: right;
+}
+
+blockquote footer:before {
+    content: "— ";
 }

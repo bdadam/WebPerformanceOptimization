@@ -14,7 +14,7 @@ Note:
 ## GZIP aktivieren
 
 Note:
-- Vor allem wichtig für text dateien (CSS, JS, HTML)
+- Nur für text dateien (CSS, JS, HTML)
 - Automatisierte Tests schreiben um Gziping zu testen
 
 ---

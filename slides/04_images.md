@@ -50,7 +50,7 @@
 
 ---
 
-<!-- .slide: data-background="assets/webp.png" -->
+<!-- .slide: data-background="assets/webp.png" class="empty" -->
 
 ---
 
@@ -119,7 +119,7 @@
 
 ---
 
-<!-- .slide: data-background="assets/grunticon.jpg" -->
+<!-- .slide: data-background="assets/grunticon.jpg" class="empty" -->
 
 ---
 
