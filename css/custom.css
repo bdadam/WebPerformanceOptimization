@@ -64,6 +64,10 @@ section {
     background-size: cover;
 }
 
+.bg-contain {
+	background-size: contain !important;
+}
+
 blockquote {
     font-style: normal !important;
     text-align: left;

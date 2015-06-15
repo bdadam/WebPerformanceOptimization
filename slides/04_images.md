@@ -1,4 +1,4 @@
-﻿<!-- .slide: data-background="assets/maps/map_final_2.jpg" -->
+﻿<!-- .slide: data-background="assets/maps/map_final_2.jpg" class="bg-contain" -->
 
 ---
 
@@ -194,7 +194,7 @@ Ergebnis
 <img data-src="imagePath.jpg" />
 ```
 
-```
+```js
 function loadImages() {
     var images = Array.prototype.slice.call(
 					document.querySelectorAll('img[data-src]')
@@ -207,12 +207,3 @@ function loadImages() {
     });
 }
 ```
-
----
-
-### Tools:
-
-- Layzr.js
-
-Note:
-- Bilder nur laden wenn sie sichtbar sind

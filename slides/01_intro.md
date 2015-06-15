@@ -48,7 +48,7 @@
 
 ### AutoScout24 user traffic 
 
-<img src="assets/stats/visits2.png" />
+<img src="assets/stats/visits2.png" style="width: 100%;" />
 
 ---
 

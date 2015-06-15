@@ -1,4 +1,4 @@
-<!-- .slide: data-background="assets/maps/map_final_4.jpg" -->
+<!-- .slide: data-background="assets/maps/map_final_4.jpg" class="bg-contain" -->
 
 --
 

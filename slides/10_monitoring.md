@@ -15,10 +15,6 @@
 
 --
 
-### Webpagetest.org (grunt-perfbudget)
-
---
-
 <!-- .slide: data-background="assets/2253850341_037eb53fd8_o.jpg" -->
 <div class="attribution">Bild: [flickr/wlodi](https://www.flickr.com/photos/wlodi/2253850341/)</div>
 

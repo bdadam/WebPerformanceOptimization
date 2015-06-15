@@ -1,4 +1,4 @@
-<!-- .slide: data-background="assets/maps/map_final_3.jpg" -->
+<!-- .slide: data-background="assets/maps/map_final_3.jpg" class="bg-contain" -->
 
 ---
 
@@ -14,7 +14,7 @@
 
 ---
 
-<img src="assets/unusedcss.png" />
+<img src="assets/unusedcss.png" style="width: 100%;" />
 
 ---
 
@@ -27,6 +27,9 @@
 ### Ein leichtgewichtiges Grid System wie susy benutzen
 
 <img src="assets/susy.png" style="height: 250px; background: none; border: none; margin-top: 80px;" />
+
+Note:
+- "grid on demand" anstatt große lösung die alle möglichen szenarien abbildet
 
 ---
 
@@ -129,19 +132,19 @@ Style für "above the fold" Inhalte direkt im ```<head>``` integrieren
 
 CSS Datei ansynchron laden mit loadCSS
 
-```
-<head>
-  <style>
+<pre><code class="lang-html">
+&#x3C;head&#x3E;
+  &#x3C;style&#x3E;
     /* inline critical CSS */
-  </style>
-  <script>
+  &#x3C;/style&#x3E;
+  &#x3C;script&#x3E;
    // inline the loadCSS script
    function loadCSS( href, before, media, callback ){ ... }
    // then load your stylesheet
-   loadCSS("/path/to/stylesheet.css");
-  <script>
-  <noscript>
-    <link href="/path/to/stylesheet.css" rel="stylesheet">
-  </noscript>
-</head>
-```
+   loadCSS(&#x22;/path/to/stylesheet.css&#x22;);
+  &#x3C;/script&#x3E;
+  &#x3C;noscript&#x3E;
+    &#x3C;link href=&#x22;/path/to/stylesheet.css&#x22; rel=&#x22;stylesheet&#x22;&#x3E;
+  &#x3C;/noscript&#x3E;
+&#x3C;/head&#x3E;
+</code></pre>

@@ -5,10 +5,6 @@
 
 Note:
 - Wie wir die Performance bei AS24 verbessert haben
-- Wir zeigen das anhand eines Beispiels
-- WPT video zeigen auf dem man sieht wie die Seite lädt vor den optimierungen
-- Was zeigt uns das Video?
-- Probleme identifizieren: start render
 - Wie kann man Performance und perceived performance messen (WPT, Google pagespeed insights)
 
 ---
@@ -55,22 +51,11 @@ Note:
 	<div style="clear: both;"></div>
 </div>
 
+Messungen erfolgen mit 3G Verbindung
+
 Note:
 - Was ist das Ziel? -> GPSI score >= 95, WPT speed index <= 1000
 - Warum haben wir dieses Ziel gewählt?
-
----
-
-<!-- .slide: data-background="assets/chess.jpg" -->
-<div class="attribution">Bild: [flickr/jasonbrown2013](https://www.flickr.com/photos/jasonbrown2013/8589591025/)</div>
-
-## Optimierungsstrategie
-
-Was wird optimiert?
-
-1. Anzahl der Requests
-1. Kilobytes
-1. Zeit für Page Rendering
 
 ---
 
@@ -106,4 +91,21 @@ Note:
 
 ## Unterstüzte Browser
 
-TODO
+<style>
+	.browsers img {
+		width: 180px;
+		height: 180px;
+		
+		background: none !important;
+		border: none !important;
+		margin-left: 15px;
+	}
+</style>
+
+<div class="browsers">
+	<img src="assets/ie.png"/>
+	<img src="assets/chrome.png"/>
+	<img src="assets/firefox.png"/>
+	<img src="assets/android.png"/>
+	<img src="assets/safari.png"/>
+</div>

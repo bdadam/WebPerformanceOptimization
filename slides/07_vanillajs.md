@@ -1,4 +1,4 @@
-<!-- .slide: data-background="assets/js.png" -->
+<!-- .slide: data-background="assets/js.png" class="bg-contain" -->
 
 # Vanilla JS
 
