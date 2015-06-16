@@ -103,20 +103,20 @@ Note:
 Nicht:
 ```
 <head>
-	...
-	<link rel="stylesheet" href="home.css">
-	<link rel="stylesheet" href="list.css">
-	<link rel="stylesheet" href="detail.css">
-	...
+    ...
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="list.css">
+    <link rel="stylesheet" href="detail.css">
+    ...
 </head>
 ```
 
 Sondern:
 ```
 <head>
-	...
-	<link rel="stylesheet" href="main.css">
-	...
+  ...
+  <link rel="stylesheet" href="main.css">
+  ...
 </head>
 ```
 
@@ -138,22 +138,24 @@ Tools:
 <!-- .slide: data-background="assets/fetch.jpg" -->
 <div class="attribution">Bild: [flickr/mshipp](https://www.flickr.com/photos/mshipp/14256166416)</div>
 
-## DNS Prefetching
+## Prefetching
 
 ---
 
-### DNS wird im Hintergrund aufgelöst, noch vor Anforderung.  
-
 ```
 <head>
-	...
-	<link rel="dns-prefetch" href="//pic.autoscout24.net" />
-	<link rel="dns-prefetch" href="//www.googletagmanager.com" />
-	...
+    ...
+    <link rel="dns-prefetch" href="//pic.autoscout24.net" />
+    <link rel="dns-prefetch" href="//www.googletagmanager.com" />
+    <link rel="prefetch" href="/Images/hero-image.jpg" />
+    ...
 </head>
 ```
 
-Vorteile:
-
+- DNS wird im Hintergrund aufgelöst, noch vor Anforderung
+- die Resource wird früher gefunden, daher früher geladen
 - Reduzierung von Latenzzeiten
+
+Note:
+- prerender und subresource
 - Schnellere Ladezeit
