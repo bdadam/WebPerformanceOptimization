@@ -3,6 +3,16 @@
 
 # Von 0 auf 100 in einer Sekunde
 
+<table style="width: 90%;">
+  <tr>
+    <td style="line-height: 2em; font-weight: bold; font-size: 1.4em;">Adam Beres-Deak</td>
+    <td style="text-align: right; line-height: 2em; font-weight: bold; font-size: 1.4em;">Mathias Eckert</td>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align: center;"><img src="assets/as24logo.png"></td>
+  </tr>
+</table>
+
 ----
 
 <!-- .slide: data-background="assets/02.jpg" -->
@@ -22,11 +32,11 @@
 <div>
 	<div style="float: left; width: 48%;">
 		<p>Alt</p>
-		<img src="assets/chameleon.png"  />
+		<img data-src="assets/chameleon.png"  />
 	</div>
 	<div style="float: left; width: 48%;">
 		<p>Neu</p>
-		<img src="assets/showcar.png" />
+		<img data-src="assets/showcar.png" />
 	</div>
 	<div style="clear: both;"></div>
 </div>
@@ -48,7 +58,7 @@
 
 ### AutoScout24 user traffic 
 
-<img src="assets/stats/visits2.png" style="width: 100%;" />
+<img data-src="assets/stats/visits2.png" style="width: 100%;" />
 
 ---
 
@@ -406,7 +416,7 @@
 
 ### Google bestraft langsame Seiten, schnelle Seiten ranken besser
 
-<img src="assets/google-mobile-slow-label.png">
+<img data-src="assets/google-mobile-slow-label.png">
 
 Note:
 - Sehr starkes Argument für perfromance verbesserungen gegenüber Management

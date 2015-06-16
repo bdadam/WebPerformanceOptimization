@@ -1,4 +1,4 @@
-﻿<!-- .slide: data-background="assets/maps/map_final_2.jpg" class="bg-contain" -->
+﻿<!-- .slide: data-background="assets/maps/map_final_2.jpg" class="bg-contain empty" -->
 
 ---
 
@@ -37,17 +37,17 @@
 <div>
 	<div style="float: left; width: 32%">
 		<p>JPEG</p>
-		<img src="assets/image_formats/kitten.jpg" />
+		<img data-src="assets/image_formats/kitten.jpg" />
 		<p>1.3 MB</p>
 	</div>
 	<div style="float: left; width: 32%">
 		<p>PNG</p>
-		<img src="assets/image_formats/kitten.png" />
+		<img data-src="assets/image_formats/kitten.png" />
 		<p>12.7 MB</p>
 	</div>
 	<div style="float: left; width: 32%">
 		<p>WEBP</p>
-		<img src="assets/image_formats/kitten.webp" />
+		<img data-src="assets/image_formats/kitten.webp" />
 		<p>312 KB</p>
 	</div>
 </div>
@@ -138,7 +138,7 @@
 
 http://pic.autoscout24.net/images-big/164/306/0269306164001.jpg
 
-<img src="assets/pic_server_2.jpg" />
+<img data-src="assets/pic_server_2.jpg" />
 
 <p>34.6 KB</p>
 
@@ -146,7 +146,7 @@ http://pic.autoscout24.net/images-big/164/306/0269306164001.jpg
 
 http://pic.autoscout24.net/images-420x315/164/306/0269306164001.jpg
 
-<img src="assets/pic_server_1.jpg" />
+<img data-src="assets/pic_server_1.jpg" />
 
 <p>16.2 KB</p>
 

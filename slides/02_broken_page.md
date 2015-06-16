@@ -18,7 +18,7 @@ Note:
 
 ## webpagetest.org
 
-<img src="assets/wpt.jpg" width="733px" height="555px" />
+<img data-src="assets/wpt.jpg" width="733px" height="555px" />
 
 Note:
 - Was ist WPT
@@ -26,20 +26,20 @@ Note:
 
 ---
 
-<!-- .slide: data-background="assets/webpagetest_result.jpg" -->
+<img data-src="assets/webpagetest_result.jpg" -->
 
 ---
 
 ## Google Page Speed Insights
 
-<img src="assets/gpsi.jpg" />
+<img data-src="assets/gpsi.jpg" />
 
 Note:
 - Was ist GPSI? --> analysiert den Inhalt einer Webseite und erstellt Vorschläge zur Verbesserung der Geschwindigkeit dieser Seite.
 
 ---
 
-<!-- .slide: data-background="assets/gpsi_result.jpg" -->
+<!-- .slide: data-background="assets/gpsi_result.jpg" class="empty" -->
 
 ---
 

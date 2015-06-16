@@ -41,7 +41,7 @@ var add = require('./add');
 console.log(add(5, 4) === 9); // true
 ```
 
-... aber AMD geht auch
+... aber ES2015 oder AMD gehen auch
 
 --
 

@@ -1,4 +1,4 @@
-<!-- .slide: data-background="assets/maps/map_final_3.jpg" class="bg-contain" -->
+<!-- .slide: data-background="assets/maps/map_final_3.jpg" class="bg-contain empty" -->
 
 ---
 
@@ -14,19 +14,19 @@
 
 ---
 
-<img src="assets/unusedcss.png" style="width: 100%;" />
+<img data-src="assets/unusedcss.png" style="width: 100%;" />
 
 ---
 
 ### Einen CSS preprocessor wie SASS benutzen
 
-<img src="assets/sass.png" style="height: 250px; background: none; border: none; margin-top: 80px;" />
+<img data-src="assets/sass.png" style="height: 250px; background: none; border: none; margin-top: 80px;" />
 
 ---
 
 ### Ein leichtgewichtiges Grid System wie susy benutzen
 
-<img src="assets/susy.png" style="height: 250px; background: none; border: none; margin-top: 80px;" />
+<img data-src="assets/susy.png" style="height: 250px; background: none; border: none; margin-top: 80px;" />
 
 Note:
 - "grid on demand" anstatt große lösung die alle möglichen szenarien abbildet
@@ -36,11 +36,11 @@ Note:
 <!-- .slide: data-background="assets/components.jpg" -->
 <div class="attribution">Bild: [flickr/jys07](https://www.flickr.com/photos/jys07/14915304913/)</div>
 
-### Eine Seite wird in verschiedene CSS Komponenten unterteilt
+### Eine Seite wird in verschiedene CSS "Komponenten" unterteilt
 
 ---
 
-<img src="assets/components_detail.jpg">
+<img data-src="assets/components_detail.jpg">
 
 ---
 
@@ -99,16 +99,16 @@ CSS files blockieren die Anzeige bis content heruntergeladen und verarbeitet wur
 ---
 
 synchron
-<img src="assets/filmstrip_2.jpg" />
+<img data-src="assets/filmstrip_2.jpg" />
 
 asynchron
-<img src="assets/filmstrip_1.webp" />
+<img data-src="assets/filmstrip_1.webp" />
 
 ---
 
 ### IPhone 5 - above the fold
 
-<img src="assets/abovethefold.jpg" />
+<img data-src="assets/abovethefold.jpg" />
 
 ---
 
@@ -126,7 +126,7 @@ Style für "above the fold" Inhalte direkt im ```<head>``` integrieren
 
 ---
 
-<!-- .slide: data-background="assets/inline_styles.jpg" -->
+<!-- .slide: data-background="assets/inline_styles.jpg" class="empty" -->
 
 ---
 

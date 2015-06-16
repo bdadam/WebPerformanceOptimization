@@ -1,4 +1,4 @@
-<!-- .slide: data-background="assets/maps/map_final_5.jpg" class="bg-contain" -->
+<!-- .slide: data-background="assets/maps/map_final_5.jpg" class="bg-contain empty" -->
 
 --
 
@@ -32,30 +32,6 @@ Note:
 <div class="attribution">Bild: [SmashingMagazine](http://www.smashingmagazine.com/2014/09/08/improving-smashing-magazine-performance-case-study/)</div>
 
 # Separation of Concerns
-
---
-
-### Core Content (sofort)
-
-- HTML (navigierbar, bedienbar)
-- CSS
-- Ein Bild (wenn Teil des Contents)
-
---
-
-### Enhancements (DOM-ready)
-
-- JavaScript
-- Webfonts
-- Zusätzliche Bilder
-
---
-
-### Leftovers (onload)
-
-- Tracking
-- Remarketing
-- Werbung
 
 Note:
 - SmashingMagazin hat keinen Nachteil bei async Ads gesehen

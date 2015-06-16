@@ -7,11 +7,11 @@
 
 ### Google Page Speed Insights (grunt-pagespeed)
 
-<img src="assets/grunt-psi-ok.png">
+<img data-src="assets/grunt-psi-ok.png">
 
 --
 
-<img src="assets/grunt-psi-fail.png">
+<img data-src="assets/grunt-psi-fail.png">
 
 --
 
@@ -24,4 +24,4 @@
 
 ### SpeedCurve
 
-<img src="assets/speedcurve.png">
+<img data-src="assets/speedcurve.png">

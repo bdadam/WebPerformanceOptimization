@@ -1,4 +1,4 @@
-﻿<!-- .slide: data-background="assets/maps/map_final_1.jpg" class="bg-contain" -->
+﻿<!-- .slide: data-background="assets/maps/map_final_1.jpg" class="bg-contain empty" -->
 
 ---
 
@@ -153,9 +153,10 @@ Tools:
 ```
 
 - DNS wird im Hintergrund aufgelöst, noch vor Anforderung
-- die Resource wird früher gefunden, daher früher geladen
-- Reduzierung von Latenzzeiten
+- Die Resource wird früher gefunden, daher früher geladen
+- Reduzierung von wahrnehmbaren Latenzzeiten
 
 Note:
-- prerender und subresource
-- Schnellere Ladezeit
+- prerender und subresource (Chrome)
+- JS programmierbar
+- lookahead pre-parser (pre-scanner)
