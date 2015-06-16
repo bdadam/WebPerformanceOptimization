@@ -145,9 +145,9 @@ Tools:
 ```
 <head>
     ...
-    <link rel="dns-prefetch" href="//pic.autoscout24.net" />
-    <link rel="dns-prefetch" href="//www.googletagmanager.com" />
-    <link rel="prefetch" href="/Images/hero-image.jpg" />
+    <link rel="dns-prefetch" href="//pic.autoscout24.net">
+    <link rel="dns-prefetch" href="//www.googletagmanager.com">
+    <link rel="prefetch" href="/Images/hero-image.jpg">
     ...
 </head>
 ```
