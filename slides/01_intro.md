@@ -66,7 +66,7 @@
 
 ---
 
-<!-- .slide: data-background="assets/loading.gif" class="empty" -->
+<img data-src="assets/loading.gif" style="width:180%;">
 
 ---
 

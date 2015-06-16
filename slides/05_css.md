@@ -134,15 +134,15 @@ CSS Datei ansynchron laden mit loadCSS
 
 <pre><code class="lang-html">
 &#x3C;head&#x3E;
-  &#x3C;style&#x3E;
-    /* inline critical CSS */
-  &#x3C;/style&#x3E;
   &#x3C;script&#x3E;
    // inline the loadCSS script
    function loadCSS( href, before, media, callback ){ ... }
    // then load your stylesheet
    loadCSS(&#x22;/path/to/stylesheet.css&#x22;);
   &#x3C;/script&#x3E;
+  &#x3C;style&#x3E;
+    /* inline critical CSS */
+  &#x3C;/style&#x3E;
   &#x3C;noscript&#x3E;
     &#x3C;link href=&#x22;/path/to/stylesheet.css&#x22; rel=&#x22;stylesheet&#x22;&#x3E;
   &#x3C;/noscript&#x3E;
