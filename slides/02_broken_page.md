@@ -46,7 +46,7 @@ Note:
 ## Das Performance Ziel
 
 <div>
-	<img src="assets/gpsi_goal.jpg" style="float: left; width: 48%;" />
+	<img src="assets/GPSI_goal.jpg" style="float: left; width: 48%;" />
 	<img src="assets/wpt_goal.jpg" style="float: right; width: 48%;" />
 	<div style="clear: both;"></div>
 </div>
